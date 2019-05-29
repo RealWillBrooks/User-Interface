@@ -21,7 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	/* vertical-align: baseline; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +65,87 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.navigation{
+	padding: 15px;
+	display: inline-block;
+}
+
+.links{
+	display: inline-block;
+	padding: 10px;
+}
+
+.links h3 a {
+	color: gray;
+	padding: 10px;
+}
+
+.navigationlogo {
+	display: inline-block;
+}
+
+button {
+	font-size: 20px;
+	padding: 8px 30px;
+	text-align: center;
+	/* margin-left: 90px; */
+}
+h1 {
+	font-size: 50px;
+	
+}
+
+.headercontainer {
+	/* width: 100%; */
+	height: 500px;
+	/* display: block; */
+}
+.headertitle {
+	/* height: 100%; */
+	/* vertical-align: middle; */
+	/* width: 49%; */
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	/* font-size: 70px; */
+	/* padding: 50px 0; */
+	/* margin: 0 0 0 100px; */
+	border: 1px solid red;
+	/* margin-bottom: 100px; */
+	/* float: left; */
+}
+.headerimg {
+	/* float: right; */
+	display: inline-block;
+	border: 1px solid red;
+	/* width: 49%; */
+	padding-top: 50px;
+}
+
+.top-content {
+	width: 100%;
+}
+
+.div1 {
+	width: 49%;
+	display: inline-block;
+}
+
+.middle-img {
+	margin-top: 30px;
+}
+
+.div2 {
+	width: 30%;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.contact {
+
+}
